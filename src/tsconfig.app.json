@@ -2,7 +2,7 @@
   "extends": "../tsconfig.json",
   "angularCompilerOptions": {
     "paths": {
-      "@morphatic/charts": [ "../morphatic-charts/src/public_api.ts" ]
+      "@morphatic/charts": [ "../morphatic-charts/public_api.ts" ]
     }
   },
   "compilerOptions": {
@@ -11,7 +11,7 @@
     "module": "es2015",
     "types": [],
     "paths": {
-      "@morphatic/charts": [ "../morphatic-charts/src/public_api.ts" ]
+      "@morphatic/charts": [ "../morphatic-charts/public_api.ts" ]
     }
   },
   "exclude": [
